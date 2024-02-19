@@ -1,0 +1,8 @@
+@import 'bootstrap';
+
+@import './style.css';
+@import './navbar.css';
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+/* @import "⁓flag-icon-css/css/flag-icon"; */

@@ -1,0 +1,382 @@
+:root {
+    --royalBlu: #034fbd;
+    --teal: #03a99f;
+    --skyBlu: #ccf0f0;
+}
+
+.display-4 {
+    font-size: 3.475rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lora', serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mt-custom {
+    margin-top: 70px;
+}
+
+.mt-customIndex {
+    margin-top: 105px;
+}
+
+.errorCustom {
+    box-shadow: 0 0 0 0.25rem rgba(254, 0, 0, 0.25)
+}
+
+.BG-custom {
+    background-image: url(../../public/media/bgProva.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mCustom-button {
+    padding-right: 20px;
+}
+
+.btnCustom {
+    background-color: rgba(139, 17, 17, 0.363);
+}
+
+.btnCustom:hover {
+    background-color: rgba(139, 17, 17, 0.205);
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+.bg-login-custom {
+    background-color: #e3e6e6;
+}
+
+.my-Custom {
+    padding: 10px;
+}
+.my-Custom:hover {
+    background-color: #cecece;
+}
+
+.CustomCaurousel {
+    height: 300px;
+    width: 100%;
+}
+
+.BannerHeader {
+    background-color: #fff;
+    width: 413px;
+    height: 300px;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 111px;
+}
+
+.mb-cutomHeader {
+    letter-spacing: 2px;
+}
+
+@media (max-width:480px) {
+    
+
+    .row{
+        justify-content: center;
+    }
+    .BannerHeader {
+        margin-left: 0;
+    }
+    .m-custom-presto {
+        margin-left: 0%;
+    }
+    
+
+}
+
+@media (max-width:442px) {
+    
+    .mtCustomh3 {
+        margin-top: 2rem;
+    }
+
+}
+
+
+.button-custom {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid var(--royalBlu);
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: var(--royalBlu);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 60%;
+    will-change: transform;
+}
+
+.button-custom:disabled {
+    pointer-events: none;
+}
+
+.button-custom:hover {
+    color: var(--teal);
+    background-color: var(--skyBlu);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button-custom:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+hr {
+    margin: 0;
+}
+
+.hover-cat:hover {
+    background-color: rgb(242, 236, 236);
+
+}
+
+.hover-cat {
+    /* padding: 0px !important; */
+    margin: 0px;
+}
+
+.img-custom {
+    object-fit: cover;
+}
+
+.card-custom {
+    overflow: hidden;
+
+}
+
+.card-c {
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.heightFissa {
+    height: 190px;
+    object-fit: cover;
+}
+
+.heightFissaGrande {
+    height: 380px;
+    object-fit: cover;
+}
+
+.card-c:hover {
+    transform: scale(1.1);
+}
+
+.btn-c {
+    background-color: var(--teal);
+}
+
+.btn-c:hover {
+    background-color: var(--skyBlu);
+}
+
+.search-c {
+    display: flex;
+    align-items: center;
+    flex: 1 1 0%;
+    font-family: inherit;
+    font-size: 14px;
+    margin: 1px;
+    padding-right: 12px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border-width: 0px;
+    box-shadow: none;
+    appearance: none;
+    padding-left: 36px;
+    border-radius: 40px;
+    width: 500px;
+}
+
+.img-preview {
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.border {
+    border: 5px solid black;
+}
+
+.searchBtn::before {
+    margin-left: -20px;
+}
+
+.fontSize {
+    font-size: 88px;
+    ;
+}
+
+.mtCustomh3 {
+    margin-top: 2rem
+}
+
+.font-sizeCustom {
+    font-size: 35px;
+}
+
+.button-custom2 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid var(--royalBlu);
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: var(--royalBlu);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+.button-custom:disabled {
+    pointer-events: none;
+}
+
+.button-custom2:hover {
+    color: var(--teal);
+    background-color: var(--skyBlu);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button-custom2:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.mb-4Cutom {
+    margin-bottom: 5.5rem !important;
+}
+
+.border-Custom {
+    border-color: #fdd8ab !important;
+}
+
+.fontSizeI::before {
+    font-size: 24px;
+}
+
+.cardCustomCreate {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+.mtCustom2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btnCustomInvia {
+    width: 20%;
+}
+
+.w100Revisor {
+    width: 100%;
+}
+
+.m-custom-presto {
+    margin-left: 9%;
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #034fbd;
+    --bs-btn-border-color: #034fbd;;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #017870;
+    --bs-btn-hover-border-color: #017870;
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #017870;
+    --bs-btn-active-border-color: #017870;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #017870;
+    --bs-btn-disabled-border-color: #017870;
+}
+/* #034fbd;
+#03a99f; */
+.btn-info {
+    --bs-btn-color: #ffffff;
+    --bs-btn-bg: #034fbd;
+    --bs-btn-border-color: #034fbd;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #03a99f;;
+    --bs-btn-hover-border-color: #03a99f;;
+    --bs-btn-focus-shadow-rgb: 11, 172, 204;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: #03a99f;;
+    --bs-btn-active-border-color: #03a99f;;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #ffffff;
+    --bs-btn-disabled-bg: #03a99f;;
+    --bs-btn-disabled-border-color: #03a99f;;
+}
+
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    /* color: var(--bs-secondary-color) !important; */
+}
+
+.mt-custom6{
+    margin-top: 100px;
+}
+
+.spanEye {
+    cursor: pointer;
+}
